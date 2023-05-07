@@ -13,7 +13,7 @@ ingress:
   hostname: wordpress.k8s-10.sa
 
 persistentVolumeClaim:
-  storageSize: 10Gi
+  storageSize: 8Gi
 
 env:
   - name: WORDPRESS_DB_HOST
