@@ -20,7 +20,7 @@ env:
     value: 192.168.201.10
   - name: WORDPRESS_DB_NAME
     value: wordpress
-  - name: 
+  - name: WORDPRESS_DB_USER
     value: wordpress
   - name: WORDPRESS_DB_PASSWORD
     value: wordpress
