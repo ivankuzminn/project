@@ -1,0 +1,35 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: wordpress
+  namespace: {{ .Release.Namespace | quote }}
+  labels:
+    {{- include "wordpress.labels" . | nindent 4 }}
+spec:
+  selector:
+    matchLabels:
+      {{- include "wordpress.selectorLabels" . | nindent 6 }}
+  strategy:
+    type: Recreate
+  template:
+    metadata:
+      labels:
+        {{- include "wordpress.selectorLabels" . | nindent 8 }}
+    spec:
+      containers:
+      - image: "{{ .Values.image.repository }}:{{ .Values.image.tag | default .Chart.AppVersion }}"
+        name: wordpress
+        env:
+        {{- with  .Values.env }}
+          {{- . | toYaml | nindent 10 -}}
+        {{- end }}
+        ports:
+        - containerPort: 80
+          name: http
+        volumeMounts:
+        - name: wordpress-persistent-storage
+          mountPath: /var/www/html/wp-content/
+      volumes:
+      - name: wordpress-persistent-storage
+        persistentVolumeClaim:
+          claimName: wordpress-pv-claim

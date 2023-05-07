@@ -1,0 +1,28 @@
+replicaCount: 2
+
+image:
+  repository: ivankuzminn/project
+  # Overrides the image tag whose default is the chart appVersion.
+  tag: "v1.0.2"
+
+service:
+  type: ClusterIP
+  port: 80
+
+ingress:
+  hostname: wordpress.k8s-10.sa
+
+persistentVolumeClaim:
+  storageSize: 8Gi
+
+env:
+  - name: WORDPRESS_DB_HOST
+    value: 192.168.201.10
+  - name: WORDPRESS_DB_NAME
+    value: wordpress
+  - name: 
+    value: wordpress
+  - name: WORDPRESS_DB_PASSWORD
+    value: wordpress
+  - name: WP_DEBUG_LOG
+    value: wordpress
