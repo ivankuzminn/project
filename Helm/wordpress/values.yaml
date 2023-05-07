@@ -1,4 +1,4 @@
-replicaCount: 2
+replicaCount: 1
 
 image:
   repository: ivankuzminn/project
@@ -13,7 +13,7 @@ ingress:
   hostname: wordpress.k8s-10.sa
 
 persistentVolumeClaim:
-  storageSize: 8Gi
+  storageSize: 10Gi
 
 env:
   - name: WORDPRESS_DB_HOST
