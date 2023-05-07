@@ -1,1 +1,12 @@
-tynty
+apiVersion: v1
+entries:
+  wordpress:
+  - apiVersion: v2
+    appVersion: 0.0.5
+    created: "2"
+    description: A Helm chart for Kubernetes
+    digest: 
+    name: wordpress
+    type: application
+    urls:
+    - 
