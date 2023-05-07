@@ -2,6 +2,16 @@ apiVersion: v1
 entries:
   wordpress:
   - apiVersion: v2
+    appVersion: v0.0.41
+    created: "2023-05-07T13:41:45.486309084Z"
+    description: A Helm chart for Kubernetes
+    digest: 20cae6c169f2843e778b42cae3cae9700692feaea6b69380a43e52c3e8b019bf
+    name: wordpress
+    type: application
+    urls:
+    - https://ivankuzminn.github.io/project/wordpress-v0.0.41.tgz
+    version: v0.0.41
+  - apiVersion: v2
     appVersion: v0.0.40
     created: "2023-05-07T13:39:56.610280747Z"
     description: A Helm chart for Kubernetes
@@ -281,4 +291,4 @@ entries:
     urls:
     - https://.github.io/my_project/wordpress-v0.0.7.tgz
     version: v0.0.7
-generated: "2023-05-07T13:39:56.609488142Z"
+generated: "2023-05-07T13:41:45.485377475Z"
