@@ -2,13 +2,223 @@ apiVersion: v1
 entries:
   wordpress:
   - apiVersion: v2
-    appVersion: 0.0.8
-    created: "2023-05-07T08:52:04.245951012Z"
+    appVersion: v0.0.33
+    created: "2023-05-07T11:20:32.706754733Z"
     description: A Helm chart for Kubernetes
-    digest: 437e045d848fa7969ead1553a534b2a0e62d65cd0a1acd24b2f693601672023d
+    digest: 4dc72ca0ef84431d0a1f874d8b8e91807ced125787fde526b4fcf5a0b2d6cddf
     name: wordpress
     type: application
     urls:
-    - https://ivankuzminn.github.io/project/wo
-    version: 0.0.8
-generated: "2023-05-07T08:52:04.245951012Z"
+    - https://ivankuzminn.github.io/project/wordpress-v0.0.33.tgz
+    version: v0.0.33
+  - apiVersion: v2
+    appVersion: v0.0.32
+    created: "2023-05-07T11:18:02.530435993Z"
+    description: A Helm chart for Kubernetes
+    digest: 7a4f8e7722088d60d542d26b0e66fe9f88454f79c41f2155fbd5fec55dbbba5b
+    name: wordpress
+    type: application
+    urls:
+    - https://ivankuzminn.github.io/project/wordpress-v0.0.32.tgz
+    version: v0.0.32
+  - apiVersion: v2
+    appVersion: v0.0.31
+    created: "2023-05-07T11:15:18.353939444Z"
+    description: A Helm chart for Kubernetes
+    digest: 199623eb84ec9cc174deb02cca414b72ea42d9018964bd291e8042b1c2b3a291
+    name: wordpress
+    type: application
+    urls:
+    - https://ivankuzminn.github.io/project/wordpress-v0.0.31.tgz
+    version: v0.0.31
+  - apiVersion: v2
+    appVersion: v0.0.28
+    created: "2023-05-07T10:15:30.915928767Z"
+    description: A Helm chart for Kubernetes
+    digest: ca584439b1fb9127a2d7082e82117bca99376b2f75ea638cd0b1d6e0b0978387
+    name: wordpress
+    type: application
+    urls:
+    - https://ivankuzminn.github.io/project/wordpress-v0.0.28.tgz
+    version: v0.0.28
+  - apiVersion: v2
+    appVersion: v0.0.27
+    created: "2023-05-07T10:13:15.954566449Z"
+    description: A Helm chart for Kubernetes
+    digest: 873d0f176b79b3aade2870e7077cce81c0b171a7bc13b71089b1867c78585066
+    name: wordpress
+    type: application
+    urls:
+    - https://ivankuzminn.github.io/project/wordpress-v0.0.27.tgz
+    version: v0.0.27
+  - apiVersion: v2
+    appVersion: v0.0.26
+    created: "2023-05-07T10:10:45.60795911Z"
+    description: A Helm chart for Kubernetes
+    digest: 60a35dc2c6321d1b4ac66d1264d74b857eed12ffc4435c2bf2e32cd7de891de5
+    name: wordpress
+    type: application
+    urls:
+    - https://ivankuzminn.github.io/project/wordpress-v0.0.26.tgz
+    version: v0.0.26
+  - apiVersion: v2
+    appVersion: v0.0.25
+    created: "2023-05-07T10:07:51.751931959Z"
+    description: A Helm chart for Kubernetes
+    digest: 05ef2a221ddd230db1f553c149192b915ce3304f212a5f575a22ec2eba6797b3
+    name: wordpress
+    type: application
+    urls:
+    - https://ivankuzminn.github.io/project/wordpress-v0.0.25.tgz
+    version: v0.0.25
+  - apiVersion: v2
+    appVersion: v0.0.24
+    created: "2023-05-07T10:05:40.794760935Z"
+    description: A Helm chart for Kubernetes
+    digest: d00f732d8897a9eca08e45bd43872ff54a4b2bfcff8bb3eb6095e248f30f935c
+    name: wordpress
+    type: application
+    urls:
+    - https://ivankuzminn.github.io/project/wordpress-v0.0.24.tgz
+    version: v0.0.24
+  - apiVersion: v2
+    appVersion: v0.0.22
+    created: "2023-05-07T09:37:04.058008515Z"
+    description: A Helm chart for Kubernetes
+    digest: 9457a1c841e119661a4a4bacb6eb17947f25c469c30a6bc62170fa7855f91d58
+    name: wordpress
+    type: application
+    urls:
+    - https://ivankuzminn.github.io/project/wordpress-v0.0.22.tgz
+    version: v0.0.22
+  - apiVersion: v2
+    appVersion: v0.0.20
+    created: "2023-05-07T09:34:22.921402173Z"
+    description: A Helm chart for Kubernetes
+    digest: f87a051cf3624f8bf7af0e350a94c22f134254ab3ac1c78715307fb8547acfe6
+    name: wordpress
+    type: application
+    urls:
+    - https://ivankuzminn.github.io/project/wordpress-v0.0.20.tgz
+    version: v0.0.20
+  - apiVersion: v2
+    appVersion: v0.0.19
+    created: "2023-05-07T09:31:28.673245809Z"
+    description: A Helm chart for Kubernetes
+    digest: ea622d24a4fef99cb52116fabcc7c091d7ad769213a37f9dcb2011d55deba468
+    name: wordpress
+    type: application
+    urls:
+    - https://ivankuzminn.github.io/project/wordpress-v0.0.19.tgz
+    version: v0.0.19
+  - apiVersion: v2
+    appVersion: v0.0.18
+    created: "2023-05-07T09:29:13.583454705Z"
+    description: A Helm chart for Kubernetes
+    digest: e85cc940d8bdeca1a443f082878ea57a8f357604d698119a2c46d6b1950daebb
+    name: wordpress
+    type: application
+    urls:
+    - https://ivankuzminn.github.io/project/wordpress-v0.0.18.tgz
+    version: v0.0.18
+  - apiVersion: v2
+    appVersion: v0.0.16
+    created: "2023-05-07T09:26:44.518215195Z"
+    description: A Helm chart for Kubernetes
+    digest: 8383605d05f76c620571e5400aa5c31800a24b4fd9060739eb92c1fb3f7cc73d
+    name: wordpress
+    type: application
+    urls:
+    - https://ivankuzminn.github.io/project/wordpress-v0.0.16.tgz
+    version: v0.0.16
+  - apiVersion: v2
+    appVersion: v0.0.15
+    created: "2023-05-07T09:24:40.639091338Z"
+    description: A Helm chart for Kubernetes
+    digest: 85664ed0da1536d5ca3a2aa4b956b1abd60de307b8c89acd3a02b600650abca8
+    name: wordpress
+    type: application
+    urls:
+    - https://.github.io/my_project/wordpress-v0.0.15.tgz
+    version: v0.0.15
+  - apiVersion: v2
+    appVersion: v0.0.14
+    created: "2023-05-07T09:23:53.174032069Z"
+    description: A Helm chart for Kubernetes
+    digest: c0fbd60984d6ae93f3c9e15c1139918869c5af9ac6de721ddba63266f7974b03
+    name: wordpress
+    type: application
+    urls:
+    - https://ivankuzminn.github.io/project/wordpress-v0.0.14.tgz
+    version: v0.0.14
+  - apiVersion: v2
+    appVersion: v0.0.13
+    created: "2023-05-07T09:21:33.169295842Z"
+    description: A Helm chart for Kubernetes
+    digest: afb7602687be34934966827bc865b356ea008edf8c149686e525ecd2c591774f
+    name: wordpress
+    type: application
+    urls:
+    - https://.github.io/my_project/wordpress-v0.0.13.tgz
+    version: v0.0.13
+  - apiVersion: v2
+    appVersion: v0.0.12
+    created: "2023-05-07T09:19:02.315734299Z"
+    description: A Helm chart for Kubernetes
+    digest: f0c13e8b6d3aa8092a4e6d95d1db3597807ad3a6f911d2331fb0cb288b562f25
+    name: wordpress
+    type: application
+    urls:
+    - https://.github.io/my_project/wordpress-v0.0.12.tgz
+    version: v0.0.12
+  - apiVersion: v2
+    appVersion: v0.0.11
+    created: "2023-05-07T09:16:43.131957196Z"
+    description: A Helm chart for Kubernetes
+    digest: 279fabb0a7bee4ad23ed16856c9116b4fc0cf2f30e5110f3b09c149a099f8b4a
+    name: wordpress
+    type: application
+    urls:
+    - https://.github.io/my_project/wordpress-v0.0.11.tgz
+    version: v0.0.11
+  - apiVersion: v2
+    appVersion: v0.0.10
+    created: "2023-05-07T09:14:26.60795584Z"
+    description: A Helm chart for Kubernetes
+    digest: 1bdbc0f43665b29b75db9697f775131da7462c6bb1f1b4af61978e1192c71828
+    name: wordpress
+    type: application
+    urls:
+    - https://.github.io/my_project/wordpress-v0.0.10.tgz
+    version: v0.0.10
+  - apiVersion: v2
+    appVersion: v0.0.9
+    created: "2023-05-07T09:11:58.643855111Z"
+    description: A Helm chart for Kubernetes
+    digest: e837ef6cc3a090e6c24acda8dc7e681ad5ebb43e60d042b4ac2be84ab1d81cd5
+    name: wordpress
+    type: application
+    urls:
+    - https://.github.io/my_project/wordpress-v0.0.9.tgz
+    version: v0.0.9
+  - apiVersion: v2
+    appVersion: v0.0.8
+    created: "2023-05-07T09:09:01.4083056Z"
+    description: A Helm chart for Kubernetes
+    digest: c45faacf77760cce9c8f07d3adad5ad0981356ad5319bdab99664281f7a9c187
+    name: wordpress
+    type: application
+    urls:
+    - https://.github.io/my_project/wordpress-v0.0.8.tgz
+    version: v0.0.8
+  - apiVersion: v2
+    appVersion: v0.0.7
+    created: "2023-05-07T09:06:27.084395717Z"
+    description: A Helm chart for Kubernetes
+    digest: 546c255e15d03d9b002b932afc3ae27c95d5e829cb57e7f513d9b43f7a3b7b4a
+    name: wordpress
+    type: application
+    urls:
+    - https://.github.io/my_project/wordpress-v0.0.7.tgz
+    version: v0.0.7
+generated: "2023-05-07T11:20:32.706169929Z"

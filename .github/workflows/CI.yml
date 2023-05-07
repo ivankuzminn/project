@@ -43,7 +43,7 @@ jobs:
         continue-on-error: true
         uses: instrumenta/kubeval-action@master
         with: 
-          files: ./my_project/templates
+          files: ./project/templates
           
       - name: Publish Helm charts
         uses: stefanprodan/helm-gh-pages@master
@@ -51,7 +51,7 @@ jobs:
           charts_dir: ./Helm
           branch: main
           linting: off
-          charts_url: https://.github.io/my_project/
+          charts_url: https://ivankuzminn.github.io/project/
           token: ${{ secrets.tokken}}
           app_version: ${{ steps.tag_version.outputs.new_tag }}
           chart_version: ${{ steps.tag_version.outputs.new_tag }}
