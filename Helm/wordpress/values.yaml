@@ -17,7 +17,7 @@ persistentVolumeClaim:
 
 env:
   - name: WORDPRESS_DB_HOST
-    value: 192.168.201.10
+    value: 192.168.203.10
   - name: WORDPRESS_DB_NAME
     value: wordpress
   - name: WORDPRESS_DB_USER
