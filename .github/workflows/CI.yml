@@ -44,6 +44,9 @@ jobs:
         uses: instrumenta/kubeval-action@master
         with: 
           files: ./project/templates   
+      - name: Helm Package
+        run: |
+          sed -i 's/${{ steps.tag_version.outputs.new_tag }}/' Helm/wordpress/values.yaml
       - name: Publish Helm charts
         uses: stefanprodan/helm-gh-pages@master
         with:
