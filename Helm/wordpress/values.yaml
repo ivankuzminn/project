@@ -3,7 +3,7 @@ replicaCount: 3
 image:
   repository: ivankuzminn/project
   # Overrides the image tag whose default is the chart appVersion.
-  tag: "test"
+  tag: test
 
 service:
   type: ClusterIP
