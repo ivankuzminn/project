@@ -3,7 +3,7 @@ replicaCount: 3
 image:
   repository: ivankuzminn/project
   # Overrides the image tag whose default is the chart appVersion.
-  tag: "v0.0.69"
+  tag: "v${{ steps.tag_version.outputs.new_tag }}"
 
 service:
   type: ClusterIP
