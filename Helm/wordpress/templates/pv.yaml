@@ -11,8 +11,8 @@ spec:
     storage: 8Gi
   accessModes:
     - ReadWriteMany
+  storageClassName: nfs-wordpress   
   persistentVolumeReclaimPolicy: Recycle
   nfs:
     path: /mnt/IT-Academy/nfs-data/sa2-23-23/Ivan_Kuzmin/
     server: 192.168.37.105
-
