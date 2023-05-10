@@ -46,14 +46,15 @@ jobs:
           files: ./project/templates   
       - name: Helm Package
         run: |
-          sed -i 's/test/${{ steps.tag_version.outputs.new_tag }}/' Helm/wordpress/values.yaml
+          sed -i 's/_tag_/${{ steps.tag_version.outputs.new_tag }}/' Helm/wordpress/values.yaml
+          sed -i 's/_tag_/${{ steps.tag_version.outputs.new_tag }}/' Helm/wordpress/chart.yaml
       - name: Publish Helm charts
         uses: stefanprodan/helm-gh-pages@master
         with:
           charts_dir: ./Helm
           branch: main
           linting: off
-          charts_url: https://ivankuzminn.github.io/project/
+          charts_url: https://ivankuzminn.github.io/project/Helm
           token: ${{ secrets.tokken}}
           app_version: ${{ steps.tag_version.outputs.new_tag }}
           chart_version: ${{ steps.tag_version.outputs.new_tag }}
