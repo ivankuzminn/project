@@ -47,7 +47,7 @@ jobs:
       - name: Helm Package
         run: |
           sed -i 's/_tag_/${{ steps.tag_version.outputs.new_tag }}/' Helm/wordpress/values.yaml
-          sed -i 's/_tag_/${{ steps.tag_version.outputs.new_tag }}/' Helm/wordpress/Chart.yaml
+        #  sed -i 's/_tag_/${{ steps.tag_version.outputs.new_tag }}/' Helm/wordpress/Chart.yaml
       - name: Publish Helm charts
         uses: stefanprodan/helm-gh-pages@master
         with:
