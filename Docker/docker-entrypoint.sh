@@ -98,5 +98,5 @@ fi
 
 rm -rf /var/www/html/wp-content/themes/newThemes/
 cp -R /usr/src/wordpress/wp-content/themes/newThemes/  /var/www/html/wp-content/themes/newThemes/
-echo "ServerName 127.0.0.1" >> /etc/apache2/apache2.conf
+#echo "ServerName 127.0.0.1" >> /etc/apache2/apache2.conf
 exec "$@"
